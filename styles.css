@@ -10,6 +10,18 @@ p, button, a {
     font-family: 'Montserrat', sans-serif;
 }
 
+h1, h2, h3, h4, p {
+    color: #012B3A;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
 /* Add background colors per section */
 #features, #authority, #cta-2 {
     background-color: white;
@@ -41,4 +53,6 @@ button:hover {
     background-color: #004963;
     border: 1px solid #004963;
 }
+
+/* Hero Section */
 
