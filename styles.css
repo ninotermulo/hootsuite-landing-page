@@ -2,7 +2,10 @@
 html, body {
     background-color: #DFFFDE;
     font-family: 'Montserrat Alternates', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
 }
+
 p, button, a {
     font-family: 'Montserrat', sans-serif;
 }
@@ -17,8 +20,9 @@ p, button, a {
 }
 
 /* Change container's displays to flex */
-section {
+section, nav {
     display: flex;
+    padding: 0px 13vw;
 }
 
 
