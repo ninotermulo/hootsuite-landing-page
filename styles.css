@@ -38,7 +38,10 @@ section, nav {
     justify-content: space-between;
     align-items: center;
 }
-col {
+.flex-row {
+    display: flex;
+}
+.flex-col {
     flex-direction: column;
 }
 
