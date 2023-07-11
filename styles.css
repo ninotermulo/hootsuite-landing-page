@@ -3,7 +3,7 @@ html, body {
     background-color: #DFFFDE;
     font-family: 'Montserrat Alternates', sans-serif;
 }
-p {
+p, button, a {
     font-family: 'Montserrat', sans-serif;
 }
 
