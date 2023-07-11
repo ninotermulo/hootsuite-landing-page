@@ -22,10 +22,23 @@ p, button, a {
 /* Change container's displays to flex */
 section, nav {
     display: flex;
-    padding: 20px 13vw;
+    padding: 20px 13.5vw;
     justify-content: space-between;
     align-items: center;
 }
 
-
+/* Button Styles */
+button {
+    color: white;
+    background-color: #012B3A;
+    border: 1px solid #012B3A;
+    font-weight: 700;
+    font-size: 16px;
+    
+    padding: 13px 12px;
+}
+button:hover {    
+    background-color: #004963;
+    border: 1px solid #004963;
+}
 
