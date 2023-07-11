@@ -55,4 +55,6 @@ button:hover {
 }
 
 /* Hero Section */
-
+.hero-content {
+    flex: 1;
+}
