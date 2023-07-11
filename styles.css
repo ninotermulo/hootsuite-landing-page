@@ -1,0 +1,13 @@
+/* Apply general style rules */
+html, body {
+    background-color: #DFFFDE;
+}
+
+/* Add background colors per section */
+#features, #authority, #cta-2 {
+    background-color: white;
+}
+
+#testimonial, #footer {
+    background-color: #004963;
+}
