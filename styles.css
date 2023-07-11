@@ -1,7 +1,10 @@
 /* Apply general style rules */
 html, body {
     background-color: #DFFFDE;
-    font-family: mont;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Add background colors per section */
