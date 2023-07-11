@@ -1,6 +1,7 @@
 /* Apply general style rules */
 html, body {
     background-color: #DFFFDE;
+    font-family: mont;
 }
 
 /* Add background colors per section */
@@ -11,3 +12,10 @@ html, body {
 #testimonial, #footer {
     background-color: #004963;
 }
+
+/* Change container's displays to flex */
+section {
+    display: flex;
+}
+
+
