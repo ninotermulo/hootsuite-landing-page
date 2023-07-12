@@ -175,12 +175,16 @@ section#hero {
 }
 .pricing-container {
     justify-content: space-around;
-    flex: 1 1 33.33%;
     gap: 4%;
 }
 .pricing-card {
     background-color: #004963;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex: 1 1 33.33%;
 }
 .font-18px {
     font-size: 18px;
@@ -188,4 +192,53 @@ section#hero {
 #pricing p {
     color: #DFFFDE;
     font-weight: 600;
+    margin: 0px 0px 5px 0px;
+}
+#pricing .cancel-link {
+    font-size: 11px;
+    color: #00A68A;
+    margin-top: 15px;
+}
+.pricing-card a {
+    color: #87F8AE;
+    font-size: 14px;
+}
+.pricing-card > .content-block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.content-block.one {
+    min-height: 15%;
+}
+.content-block.two {
+    gap: 10px;
+    min-height: 21%;
+}
+.content-block.two button {
+    background-color: #87F8AE;
+    border: 0px;
+}
+.content-block.four {
+    margin-bottom: 0px;
+    flex-grow: 1;
+}
+.content-block > button {
+    color: #004963;
+}
+.content-block > button:hover {
+    background-color: #DFFFDE;
+}
+.price {
+    font-size: 28px;
+}
+.no-price {
+    font-size: 24px;
+}
+.content-block sup {
+    font-size: 18px;
+    font-weight: 300;
+}
+.content-block.four p {
+    font-size: 13px;
 }
