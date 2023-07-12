@@ -134,6 +134,7 @@ section#hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
 }
 .image-wrapper > img {
     max-height: 100%;
@@ -166,4 +167,14 @@ section#hero {
 #testimonial .occupation {
     color: #DFFFDE;
     font-size: 14px;
+}
+
+/* Pricing Section */
+#pricing {
+    align-items: stretch;
+}
+.pricing-container {
+    justify-content: space-around;
+    flex: 1 1 33.33%;
+    min-width: 33.33%;
 }
