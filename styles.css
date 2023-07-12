@@ -185,3 +185,7 @@ section#hero {
 .font-18px {
     font-size: 18px;
 }
+#pricing p {
+    color: #DFFFDE;
+    font-weight: 600;
+}
