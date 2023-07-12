@@ -176,5 +176,12 @@ section#hero {
 .pricing-container {
     justify-content: space-around;
     flex: 1 1 33.33%;
-    min-width: 33.33%;
+    gap: 4%;
+}
+.pricing-card {
+    background-color: #004963;
+    padding: 30px;
+}
+.font-18px {
+    font-size: 18px;
 }
